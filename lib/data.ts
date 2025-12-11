@@ -27,7 +27,7 @@ export const PROJECTS: Project[] = [
     tags: ["Laravel", "Next.js", "MySQL", "Tailwind CSS", "GitLab", "Docker", "Google Cloud Platform"],
     imageUrl: "/Yooka.png",
     repoUrl: "https://github.com/daffa03x",
-    demoUrl: "#",
+    demoUrl: "https://github.com/daffa03x",
     category: "Web App",
   },
   {
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
     tags: ["Laravel", "Next.js", "MySQL", "Tailwind CSS", "GitLab", "Docker", "Payment Gateway", "Meta Pixel", "TikTok Pixel", "Google Tag Manager", "Google Cloud Platform"],
     imageUrl: "/RM.png",
     repoUrl: "https://github.com/daffa03x",
-    demoUrl: "#",
+    demoUrl: "https://raihmimpi.id/",
     category: "Web App",
   },
   {
@@ -47,7 +47,7 @@ export const PROJECTS: Project[] = [
     tags: ["Laravel", "Blade","Payment Gateway", "JavaScript", "MySQL", "Bootstrap", "GitLab", "Google Analytics"],
     imageUrl: "/ZA.png",
     repoUrl: "https://github.com/daffa03x",
-    demoUrl: "#",
+    demoUrl: "https://zillenialaction.id/",
     category: "Web App",
   },
   {
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
     tags: ["Laravel", "Blade","jQuery", "MySQL", "Bootstrap", "GitLab", "Docker","Google Cloud Platform"],
     imageUrl: "/Stellar.png",
     repoUrl: "https://github.com/daffa03x",
-    demoUrl: "#",
+    demoUrl: "https://github.com/daffa03x",
     category: "Web App",
   },
 ];
