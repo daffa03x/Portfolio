@@ -67,7 +67,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     id: "1",
     company: "PT Yooka Arana Niaga",
     role: "Web Developer",
-    period: "Jan 2023 – Present",
+    period: "Okt 2023 – Present",
     description: [
       "Focused on developing fundraising features for an online donation system and optimizing query performance by 8%.",
       "Optimized admin dashboard queries, improving execution efficiency by 13%.",
@@ -82,7 +82,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     id: "2",
     company: "IKIP Siliwangi",
     role: "Fullstack Developer (Intern)",
-    period: "Mar 2022 – Jun 2022",
+    period: "Jun 2022 – Sep 2022",
     description: [
       "Developed a room scheduling and booking information system.",
       "Handled both front-end and back-end development to increase administrative efficiency.",
