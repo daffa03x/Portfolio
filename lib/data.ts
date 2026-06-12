@@ -9,14 +9,18 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  { name: "HTML", level: 95 },
-  { name: "CSS/Tailwind", level: 90 },
+  { name: "Laravel / PHP", level: 90 },
+  { name: "Next.js / React", level: 85 },
+  { name: "TypeScript", level: 82 },
   { name: "JavaScript", level: 85 },
-  { name: "PHP/Laravel", level: 90 },
-  { name: "Next.js/React", level: 80 },
-  { name: "MySQL/PostgreSQL", level: 85 },
-  { name: "Git/GitHub", level: 88 },
-  { name: "Rest API", level: 85 },
+  { name: "MySQL", level: 88 },
+  { name: "REST API", level: 88 },
+  { name: "Tailwind CSS", level: 90 },
+  { name: "Docker", level: 78 },
+  { name: "Redis", level: 75 },
+  { name: "Cloudflare R2", level: 75 },
+  { name: "Payment Gateway", level: 80 },
+  { name: "Git / GitLab", level: 88 },
 ];
 
 export const PROJECTS: Project[] = [
@@ -119,27 +123,39 @@ export const EXPERIENCE_DATA: Experience[] = [
     role: "Web Developer",
     period: "Oct 2023 – Present",
     description: [
-      "Developed a full-featured HRIS system, including organizational hierarchy management, RFID-based attendance tracking, and an internal announcement notification system to streamline HR operations.",
-      "Implemented RFID attendance integration to automate employee check-in/out, reducing manual attendance errors and improving data accuracy.",
-      "Designed and built an organizational hierarchy structure to support role-based approval workflows and reporting lines.",
-      "Built an internal announcement and notification module to distribute company updates and improve employee communication.",
-      "Optimized complex database queries, improving dashboard execution efficiency by 13% and fundraising module performance by 8%.",
-      "Integrated Meta Pixel and TikTok Pixel for marketing conversion tracking.",
-      "Developed responsive company profile websites and ticketing systems with secure payment gateway integration.",
+      "Developed and maintained production-grade web applications for HRIS, donation platforms, ticketing systems, and internal business operations.",
+      "Built HRIS modules including RFID-based attendance, leave requests, employee management, asset management, organization hierarchy, and internal announcements.",
+      "Integrated payment gateway, Meta Pixel, and TikTok Pixel to support transaction flows and marketing conversion tracking.",
+      "Improved dashboard data processing and reporting workflows to support faster operational decision-making.",
+      "Built responsive and maintainable fullstack applications using Laravel, Next.js, TypeScript, MySQL, Redis, Tailwind CSS, Docker, and Cloudflare R2.",
     ],
-    tech: ["Laravel", "Next.js", "MySQL", "Tailwind CSS", "Payment Gateway", "REST API", "Docker", "GitLab", "Google Cloud", "Digital Ocean"],
+    tech: [
+      "Laravel",
+      "Next.js",
+      "TypeScript",
+      "MySQL",
+      "Redis",
+      "Tailwind CSS",
+      "Docker",
+      "Cloudflare R2",
+      "Payment Gateway",
+      "REST API",
+      "GitLab",
+    ],
   },
   {
     id: "2",
     company: "IKIP Siliwangi",
-    role: "Fullstack Developer (Intern)",
+    role: "Fullstack Developer Intern",
     period: "Jun 2022 – Sep 2022",
     description: [
-      "Developed a room scheduling and booking information system.",
-      "Handled both front-end and back-end development to increase administrative efficiency.",
+    "Developed a web-based room scheduling and booking information system to support campus administrative operations.",
+    "Built front-end interfaces and back-end logic for managing room availability, booking records, and scheduling data.",
+    "Implemented CRUD functionality, database structure, and form validation to improve data management accuracy.",
+    "Collaborated with internal users to understand scheduling workflows and translate requirements into system features.",
     ],
-    tech: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Laravel"],
-  },
+    tech: ["Laravel", "PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+  }
 ];
 
 export const EDUCATION_DATA: Education[] = [

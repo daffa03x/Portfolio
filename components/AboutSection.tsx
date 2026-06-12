@@ -50,14 +50,16 @@ export default function AboutSection() {
           >
             <h2 className="text-3xl font-bold mb-6 text-foreground">About Me</h2>
             <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
-              I am a <strong>Fullstack Web Developer</strong> and Informatics Engineering graduate with over two years of experience in developing and maintaining web applications. 
-              My expertise spans <strong>HTML, CSS, JavaScript, PHP, Laravel, Next.js, and MySQL</strong>.
-            </p>
-            <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-              Currently working as a Fullstack Developer at <strong>PT Yooka Arana Niaga</strong>, I focus on implementing efficient, innovative technological solutions that are user-experience oriented. 
-              I have a proven track record of optimizing system performance and building robust feature sets for HRIS and donation platforms.
+              I am a <strong>Fullstack Web Developer</strong> with 2+ years of experience building and maintaining production-grade web applications for business operations, HR systems, donation platforms, and internal tools.
             </p>
 
+            <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+              Currently working as a <strong>Web Developer at PT Yooka Arana Niaga</strong>, I focus on developing <strong>HRIS and MIS solutions</strong>, including attendance management, leave requests, employee data management, asset management, organizational hierarchy, reporting dashboards, and internal workflow systems.
+            </p>
+
+            <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
+              I am experienced in building end-to-end web applications, from database design, REST API development, authentication, role-based access control, payment gateway integration, to responsive front-end implementation using <strong>Laravel, Next.js, TypeScript, MySQL, Redis, Tailwind CSS, Docker, and Cloudflare R2</strong>.
+            </p>
             <div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Skills & Technologies</h3>
               <div className="flex flex-wrap gap-3">
