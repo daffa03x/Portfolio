@@ -4,7 +4,7 @@ export interface Project {
   description: string;
   imageUrl: string;
   tags: string[];
-  category: 'Web App' | 'Mobile App' | 'Design' | 'Other';
+  category: 'Web App' | 'AI Web App' | 'Mobile App' | 'Design' | 'Other';
   demoUrl?: string;
   repoUrl?: string;
 }
